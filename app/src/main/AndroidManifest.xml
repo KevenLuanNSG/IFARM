@@ -12,6 +12,7 @@
         <activity android:name="com.example.trabalhomobile.TelaLogin"></activity>
         <activity android:name="com.example.trabalhomobile.TerceiraTela" />
         <activity android:name="com.example.trabalhomobile.DuvidaActivity" />
+        <activity android:name="com.example.trabalhomobile.MinhaDuvida" />
         <activity android:name="com.example.trabalhomobile.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
