@@ -4,6 +4,8 @@
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+
 
     <application
         android:allowBackup="true"
@@ -20,6 +22,7 @@
             android:name=".LocalizacaoActivity"
             android:label="@string/title_activity_localizacao"></activity>
         <activity android:name="com.example.trabalhomobile.ListaDuvidaActivity"></activity>
+        <activity android:name="com.example.trabalhomobile.CarregaFotoActivity"></activity>
         <activity android:name="com.example.trabalhomobile.TelaLogin"></activity>
         <activity android:name="com.example.trabalhomobile.TerceiraTela" />
         <activity android:name="com.example.trabalhomobile.DuvidaActivity" />
